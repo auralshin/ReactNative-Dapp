@@ -5,12 +5,21 @@
  * @format
  * @flow
  */
-
+import './global';
+import './shims';
 import React, { Component } from "react";
 import { Platform, StyleSheet, Text, View } from "react-native";
 import ReadString from "./components/ReadString";
 import SetString from "./components/SetString";
 
+// const Web3 = require('web3');
+// componentWillMount() {
+//   const web3 = new Web3(
+//     new Web3.providers.HttpProvider('https://mainnet.infura.io/')
+//   );
+
+//   web3.eth.getBlock('latest').then(console.log)
+// }
 type Props = {};
 export default class App extends Component<Props> {
   state = { loading: true, drizzleState: null };
