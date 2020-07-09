@@ -10,8 +10,15 @@
     "lint": "eslint ."
   },
   "dependencies": {
+    "@drizzle/store": "^1.5.1",
+    "Base64": "^1.1.0",
+    "eth-block-tracker-es5": "^2.3.2",
+    "js-base64": "^2.6.3",
+    "node-libs-react-native": "^1.2.0",
     "react": "16.13.1",
-    "react-native": "0.63.0"
+    "react-native": "0.63.0",
+    "react-native-randombytes": "^3.5.3",
+    "vm-browserify": "^1.1.2"
   },
   "devDependencies": {
     "@babel/core": "7.10.4",
