@@ -9,7 +9,7 @@
 
 ## Project Structure
 	 ├── android
-         ├── contracts
+	 ├── contracts
 	 ├── ios
 	 ├── migrations
 	 ├── node_modules
