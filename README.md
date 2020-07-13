@@ -12,11 +12,14 @@
 	 ├── contracts
 	 ├── ios
 	 ├── migrations
-	 ├── node_modules
+	 ├── gitignore
 	 ├── test
 	 ├── App.js
 	 ├── app.json
 	 ├── index.js
+	 ├── shims.js
+	 ├── global.js
+	 ├── rn-cli.config.js
 	 ├── package.json
 	 ├── truffle-config.js
 	 ├── truffle.js
@@ -29,4 +32,5 @@
 	- Start ganache-cli: ganache-cli -b 3
 	- Compile and migrate contracts: truffle compile && truffle migrate
 	- Reverse ports: adb reverse tcp:8545 tcp:8545
-	- Install app: react-native run-android
+	- react-native start
+	- Install app: react-native run-android ( on different terminal )
