@@ -16,7 +16,7 @@
     "js-base64": "^2.6.3",
     "node-libs-react-native": "^1.2.0",
     "react": "16.13.1",
-    "react-native": "0.63.0",
+    "react-native": "0.64.1",
     "react-native-crypto": "^2.2.0",
     "react-native-randombytes": "^3.5.3",
     "vm-browserify": "^1.1.2"
